@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login</title>
+   <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   <div class="container">
+      <h1>Login</h1>
+      <div class="username">
+         <p class="title" id="username">Username</p>
+         <input type="text" id="username-input">
+         <p id="username-blank" style="display: none;">username field cannot be blank</p>
+      </div>
+      <div class="password">
+         <p class="title" id="password-text">Password</p>
+         <input type="password" id="password-input">
+         <img src="../images/show.png" alt="" id="show-image">
+         <img src="../images/hide.png" alt="" id="hide-image" style="display: none;">
+         <p id="password-blank" style="display: none">password field cannot be blank</p>
+      </div>
+      <div class="aditionals-parameters">
+         <p class="title">Remember me</p>
+         <input type="checkbox" id="remember-checkbox">
+         <a href="../forgot-password/forgot-password.html" id="forgot-password-link">Forgot password?</a>
+      </div>
+      <div class="footer">
+         <button id="login-button">Login</button>
+         <p id="help-text">Don't have an acount?<a href="../sign-up/sign-up.html"id="sign-up-link">Sign up now</a></p>
+      </div>
+   </div>
+   <script src="login.js"></script>
+</body>
+</html>

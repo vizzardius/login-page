@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sign up</title>
+   <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+   <div class="container">
+      <h1>Sign Up</h1>
+      <div class="email">
+         <p class="title" id="email">Email</p>
+         <input type="email" id="sign-up-email-input">
+         <p class="blank" id="sign-up-email-blank" style="display: none;">email field cannot be blank</p>
+      </div>
+      <div class="username">
+         <p class="title" >Username</p>
+         <input type="text" id="sign-up-username-input">
+         <p class="blank" id="sign-up-username-blank" style="display: none;">username field cannot be blank</p>
+      </div>
+      <div class="password">
+         <p class="title" id="password-text">Password</p>
+         <input type="password" id="sign-up-password-input">
+         <img src="../images/show.png" alt="" id="sign-up-show-image">
+         <img src="../images/hide.png" alt="" id="sign-up-hide-image" style="display: none;">
+         <p class="blank" id="sign-up-password-blank" style="display: none;">password field cannot be blank</p>
+      </div>
+      <div class="aditionals-parameters">
+         <p class="title">Accept privacy terms</p>
+         <input type="checkbox" id="privacy-terms-checkbox">
+         <p class="blank" id="sign-up-checkbox-blank" style="display: none;">Please accept our privacy terms</p>
+      </div>
+      <div class="footer">
+         <button id="sign-up-button">Sign Up</button>
+         <p id="help-text">Already have an account?<a href="../login/index.html"id="login-link">Login now</a></p>
+      </div>
+   </div>
+   <script src="sign-up.js"></script>
+</body>
+</html>

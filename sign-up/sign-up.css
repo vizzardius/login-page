@@ -1,0 +1,114 @@
+body{
+  background: url("../images/login-background.png") no-repeat center center fixed;
+   margin: 0;
+   padding: 0;
+   height: 80vh;
+   background-size:cover;
+}
+.container{
+   background-color: rgba(0,0,255, 0.4);
+   width: 400px;
+   height: auto;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 10px;
+}
+h1{
+   color: whitesmoke;
+   text-align: center;
+   margin-top: 30px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+   font-size: 20px;
+   display: inline-block;
+   margin-top: -10px;
+}
+input{
+   width: 380px;
+   margin-left: 5px;
+   margin-top: -20px;
+   margin-bottom: 10px;
+   border-radius: 40px;
+   border: none;
+   height: 25px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding-left: 10px;
+}
+
+.username,.email{
+   margin-top:20px;
+}
+.title{
+   margin-left: 10px;
+   margin-top: 10px;
+   color: white;
+}
+.password{
+   margin-top:20px;
+}
+
+#privacy-terms-checkbox{
+   display: flex;
+   margin-top:-40px;
+   margin-left: 10px;
+   height: 20px;
+}
+.aditional-parameters{
+   margin-top: 20px;
+}
+.footer{
+   margin-top: 20px;
+}
+#sign-up-button{
+   display: flex;
+   justify-content: center;   
+   align-items: center;       
+   width: 150px;
+   height: 40px;
+   margin: 10px auto 0;
+   font-size: 16px;
+   border-radius: 20px;
+   background: white;
+   cursor: pointer;
+   border: none;
+   transition: 0.3s;
+   padding: 0;            
+   transition: box-shadow 0.3s ease,transform 0.2s ease;  
+   line-height: normal;     
+}
+#sign-up-button:hover{
+      border: none;
+   box-shadow: 0 0 15px rgba(250, 235, 215, 0.8);
+   transform: scale(1.05);
+}
+#help-text{
+   display: flex;
+   margin:10px 50px;
+   color: white;
+}
+#login-link{
+   color: white;
+   margin-bottom: 10px;
+}
+#sign-up-show-image{
+   display: flex;
+   width: 30px;
+   height: 30px;
+   margin-top: -37px;
+   margin-left: 350px;
+}
+#sign-up-hide-image{
+   display: flex;
+   width: 30px;
+   height: 30px;
+   margin-top: -35px;
+   margin-left: 350px;
+   
+}
+.blank{
+   color: red;
+   font-size: 15px;
+   margin-left: 10px;
+   margin-top: 2px;
+}
